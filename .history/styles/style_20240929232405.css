@@ -1,0 +1,219 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "New Amsterdam", serif;
+  height: auto;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+}
+
+header.navbar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jumbotron {
+  width: 100%;
+  background-image: url("../img/the-1975-bfiafl.jpg");
+  background-position: 0 center;
+  padding: 50px 20px;
+  text-align: center;
+  height: 500px;
+}
+
+header h1 {
+  font-family: "Anton", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 150px;
+  color: #001689;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+header p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+header.navbar-container .nav-list ul {
+  display: flex;
+  gap: 3rem;
+  padding: 20px 0;
+}
+
+header.navbar-container .nav-list li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.nav-list {
+  width: 100%;
+  height: 100%;
+  padding-left: 1.5rem;
+}
+
+.nav-list ul {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.nav-list li a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  color: black;
+  text-decoration: none;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-list li:hover a {
+  color: #001689;
+  border: 2px solid #001689;
+}
+
+header {
+  width: 100%;
+}
+
+main {
+  flex: 1;
+
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 6rem 4rem;
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+}
+
+main .content .content-description {
+  flex: 1 1;
+}
+
+main .content .content-description .title {
+  margin-block: 1rem;
+  font-family: "Anton", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+main .content .content-description p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  max-width: 600px;
+  text-align: just;
+  line-height: 1.5;
+}
+
+main .content .content-description .button-platform button {
+  padding: 0.8rem 1rem;
+  border: 3px solid transparent;
+  border-radius: 999px;
+  margin-block-start: 1.5rem;
+  height: 3.5rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: #001689;
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+
+  white-space: nowrap;
+
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+main .content .content-description .button-platform button:hover {
+  border: 3px solid #001689;
+  background-color: transparent;
+
+  color: #001689;
+}
+
+main .content .content-image {
+  flex: 1;
+  display: flex;
+}
+
+main .content .content-image img {
+  width: 3000px;
+}
+/* main .content .content-image {
+  flex: 1;
+  display: flex;
+}
+
+main .content .content-image img {
+  width: 300px;
+  min-width: 250px;
+  margin: auto;
+} */
+
+main .content .content-description .button-platform {
+  display: flex;
+}
+
+main .content .content-description .music-platform {
+  width: 100%;
+  display: flex;
+}
+
+main .content .content-description .music-platform li {
+  list-style-type: none;
+}
+
+main .content .content-description .music-platform li a {
+  font-size: 1.5rem;
+  color: black;
+}
+
+main .content .content-description .music-platform ul {
+  display: flex;
+  align-items: center;
+  margin: 1rem 1.5rem;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+/* main aside .social-media ul {
+  padding: 1.5rem 1rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: auto;
+  background-color: #2d3e50;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+} */
